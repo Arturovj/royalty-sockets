@@ -2,7 +2,7 @@
 
 const io = require("socket.io")(process.env.SOCKET_URI || 8900, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://mellifluous-pothos-4e8f59.netlify.app/",
   },
 });
 
